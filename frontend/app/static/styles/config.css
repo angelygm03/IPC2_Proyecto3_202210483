@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c8e4f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    color: #666666;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.file-option {
+    margin-bottom: 20px;
+}
+
+.file-option label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.file-option input[type="file"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+.file-option input[type="file"]:hover {
+    background-color: #e0e0e0;
+}
+
+.output {
+    border-top: 1px solid #cccccc;
+    padding-top: 20px;
+    margin-top: 30px;
+    width: 770px;
+    height: 200px;
+}
+
+.output h2 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.output textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333333;
+    resize: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button,
+.buttons a {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button {
+    background-color: #ff6961;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.buttons button:hover {
+    background-color: #f85249;
+}
+
+.buttons a {
+    background-color: #ff6961;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.buttons a:hover {
+    background-color: #f85249;
+}

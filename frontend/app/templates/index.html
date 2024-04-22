@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/index.css' %}" >
+    <title>ITGSA Online</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Industria Típica Guatemala, S.A.</h1>
+        <img src="https://lh3.googleusercontent.com/proxy/0CbfWGqm5TlJbOHfyhtmCQsHaJOQhAEjQPplUwXcifIqYg5xIW1ZYshaXS8Dx-rBpFSbA1WDGeghc8uveoTqcgvuNShaQdkiDDSqY0AiuiH0wVR9T96IASaxBDbdUU3BfIm9TNPuuDWd5DG80ebHIqVCRPovRtgHa6tnyK_vNYS1i8_7wJfVSzwFJUev7qUjWmjtSZnEaevzJiu7lAyxOHshgVPQtL3GVgwlBJ6muT5MJtMURi9Km4xD78kuWeFokTQ-kB3x-U8" alt="Logo de la empresa" class="logo">
+        <p>Bienvenido. A continuación, selecciona la acción que deseas realizar:</p>
+        <div class="options">
+            <div class="option">
+                <a href="/config">
+                    <button>Cargar Bancos/Clientes</button>
+                </a>
+            </div>
+            <div class="option">
+                <a href="/transac">
+                    <button>Cargar Transacciones</button>
+                </a>
+            </div>
+            <div class="option">
+                <a href="/peticiones">
+                    <button>Otras Peticiones</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

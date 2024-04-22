@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/transac.css' %}" >
+    <title>Transacciones</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Industria Típica Guatemala, S.A.</h1>
+        <h2>Cargar Facturas y Pagos</h2>
+        <p>El archivo debe contener el listado de facturas generadas por la Tienda Virtual y los pagos en Bancas Virtuales</p>
+        <div class="file-option">
+            <label for="configFile">Seleccionar archivo XML:</label>
+            <input type="file" id="configFile" accept=".xml">
+        </div>
+        <div class="output">
+            <h2>Resumen</h2>
+            <textarea id="xmlContent" readonly></textarea>
+        </div>
+        <div class="buttons">
+            <button id="loadMoreFiles">Cargar más archivos</button>
+            <button id="resetBtn">Resetear</button>
+            <a href="/">Regresar al menú principal</a>
+        </div>
+    </div>
+    <script src="config.js"></script>
+</body>
+</html>
